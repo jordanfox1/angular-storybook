@@ -12,8 +12,7 @@ import { Task } from '../models/task.model';
         *ngFor="let task of tasks"
         [task]="task"
         (onArchiveTask)="onArchiveTask.emit($event)"
-        (onPinTask)="onPinTask.emit($event)"
-      >
+        (onPinTask)="onPinTask.emit($event)">
       </app-task>
     </div>
   `,
